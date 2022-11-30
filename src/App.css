@@ -138,6 +138,10 @@ span {
         width: 70%;
         height: 80%;
     }
+    nav .primary-nav a{
+      height:10%;
+      width:30%
+    }
 }
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     form {

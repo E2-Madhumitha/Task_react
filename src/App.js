@@ -6,6 +6,7 @@ import { View } from "./View";
 import DeptList from "./DeptList";
 import { Deptview } from "./Deptview";
 import { Navbar } from "./Navbar";
+import { Department } from "./Department";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
         <Route  path="/view"  element={<View />} />
         <Route  path="/deptdetails"  element={<DeptList />} />
         <Route  path="/deptview"  element={<Deptview />} />
+        <Route  path="/department"  element={<Department/>} />
     </Routes>
     </Router>
         </div>
