@@ -256,7 +256,7 @@ function Employeeform() {
                             </div>
                             <div className="but">
                                 <button type="submit">Submit</button>
-                                <button type="button" onClick={() => navigate("view")}>show table</button>
+                                <button type="button" onClick={() => navigate("view")}>Table</button>
                                
                                 {
                                     <p style={{ color: "green" }}>
