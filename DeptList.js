@@ -185,7 +185,7 @@ function DeptList() {
                             </div>
                             <div className="but">
                                 <button type="submit">Submit</button>
-                                <button type="button" onClick={() => navigate("/deptview")}>show table</button>
+                                <button type="button" onClick={() => navigate("/deptview")}>Table</button>
                                
                                 {
                                     <p style={{ color: "green" }}>
